@@ -1,0 +1,248 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 85%;
+  }
+}
+
+body {
+  /* font-family: 'Nunito Sans', sans-serif !important; */
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Roboto', sans-serif !important;
+  color: #333333 !important;
+  font-size: 1em;
+}
+
+/* Utlity */
+.margin-negative {
+  margin-bottom: -51px;
+}
+
+.page-link {
+  color: #1074ab;
+  font-weight: bold;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  line-height: 1.6;
+}
+
+h1 > img {
+  width: 48px;
+  margin-bottom: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+.display-4 {
+  /* font-family: 'Nunito', sans-serif !important; */
+  font-weight: 600;
+}
+
+.display-4 {
+  font-size: 3rem;
+}
+
+.btn-outline-info {
+  color: #1074ab;
+  border-color: #1074ab;
+}
+
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.btn-outline-info:not(:disabled):not(.disabled):active,
+.show > .btn-outline-info.dropdown-toggle {
+  color: #fff;
+  background-color: #1074ab;
+  border-color: #1074ab;
+}
+
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #1074ab;
+  border-color: #1074ab;
+}
+
+.btn-info {
+  color: rgb(255, 255, 255);
+  background-color: #1074ab;
+  border-color: #1074ab;
+  border-radius: 50px;
+}
+
+.btn-info:hover {
+  color: rgb(255, 255, 255);
+  background-color: #1074ab;
+  border-color: #1074ab;
+}
+
+.btn-outline-info {
+  color: #801fbc;
+  border-color: #801fbc;
+  border-radius: 50px;
+}
+
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.btn-outline-info:not(:disabled):not(.disabled):active,
+.show > .btn-outline-info.dropdown-toggle {
+  color: #fff;
+  background-color: #801fbc;
+  border-color: #801fbc;
+}
+
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #801fbc;
+  border-color: #801fbc;
+}
+
+#news h4,
+#blog h4 {
+  color: #1074ab;
+}
+h1 {
+  color: #1074ab;
+}
+h1 > img {
+  margin-right: 1rem;
+}
+
+.bg-light {
+  background-color: #f3f8fb !important;
+}
+
+.lead {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(170.23deg, #1074ab 3.27%, #801fbc 218.69%);
+  border: 3px solid #1074ab;
+  border-radius: 50px;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-outline-primary {
+  border-radius: 50px;
+  color: #801fbc;
+  border: 3px solid #801fbc;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-outline-primary:hover {
+  background-color: #801fbc;
+  border-color: #801fbc;
+}
+
+.company-bg {
+  background-image: url(/img/company/map.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* NavBar */
+
+.bg-shadow {
+  background-color: #ffffff !important;
+  box-shadow: 0 7px 25px 0 #32323263;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background: linear-gradient(170.23deg, #1074ab 3.27%, #801fbc 218.69%);
+  color: #fff !important;
+  border-radius: 50px;
+}
+
+/* .navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  background: linear-gradient(170.23deg, #1074ab 3.27%, #801fbc 218.69%);
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 10px 15px;
+} */
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.btn-outline-primary {
+  height: 48px;
+  width: 175px;
+  border-radius: 73px;
+  color: #801fbc;
+  border: 3px solid #801fbc;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-outline-primary:hover {
+  background-color: #801fbc;
+  border: 3px solid #801fbc;
+}
+
+/* Banner */
+
+#info {
+  border-bottom: 3px solid #f8f9fa;
+  padding-bottom: 50px;
+}
+
+/* #info .row {
+  min-height: 550px;
+} */
+
+/* Footer  */
+
+footer a {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+  font-size: 0.9rem;
+}
+
+footer ul li {
+  line-height: 2;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+/* Blog images */
+.blog-hero-img,
+.blog-post-img,
+.blog-related-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-hero-img {
+  height: 360px;
+}
+
+.blog-post-img {
+  height: 280px;
+}
+
+.blog-related-img {
+  height: 220px;
+}
